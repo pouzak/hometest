@@ -121,6 +121,7 @@ mysql.createConnection({
 	});
 	console.log(' ');
 	console.log('[Home back <--]: '+ cordinates[0].latitude + ' '+ cordinates[0].longitude + ' - ' + totalLength[totalLength.length-1]);
+	console.log('Total distance: ' + (totalLength[totalLength.length-1] + lengthBetween[lengthBetween.length - 1]))
 
 }).then(function(){
 
