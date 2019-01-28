@@ -6,7 +6,7 @@ Install node modules & run app:
  ```sh
 npm install
 
-//run
+
 nodemon index
 ```
 
