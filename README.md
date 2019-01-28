@@ -1,7 +1,7 @@
 
 # Hometest
 
-Install node modules & run app:
+Import .sql dump, install node modules & run app:
 
  ```sh
 npm install
