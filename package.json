@@ -1,0 +1,20 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulius",
+  "license": "ISC",
+  "dependencies": {
+    "geolib": "^2.0.24",
+    "mysql": "^2.16.0",
+    "npm": "^6.7.0",
+    "promise-mysql": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
