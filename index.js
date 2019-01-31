@@ -33,7 +33,7 @@ var getBreweriesInfo = `SELECT geocodes.brewery_id , breweries.brewery_name, geo
 
 var getBeerInfo = `SELECT geocodes.brewery_id , beers.name
 		FROM geocodes
-		INNER JOIN beers on geocodes.id=beers.brewery_id
+		INNER JOIN beers on geocodes.brewery_id=beers.brewery_id
 		WHERE geocodes.latitude= ? AND geocodes.longitude= ?`;
 
 
